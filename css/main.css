@@ -134,3 +134,27 @@ em {
 	font-size: small;
 	margin: 0;
 }
+
+/* ================ PATTERN =============== */
+
+.pattern-link {
+	display: table;
+}
+
+.pattern-img {
+	transform:rotate(90deg);
+	-ms-transform:rotate(90deg);
+	-webkit-transform:rotate(90deg);
+	width:50%;
+	display: table-cell;
+}
+
+.pattern-title {
+	font-size: 24px;
+	margin: 10px 10px 10px -1em;
+	text-align: center;
+	background: #333333;
+	color: white;
+	padding: 10px 10px 10px 1em;
+	width:100%;
+}
