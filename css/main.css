@@ -9,6 +9,10 @@ title {
 	display: none;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+}
+
 /* ======== TOP MENU ======== */
 
 .main-menu {
@@ -98,4 +102,35 @@ span {
 .thumbnail {
 	border-radius: 10px;
 	margin: 5%;
+}
+
+/* ====== ABOUT ======== */
+
+.title {
+	margin:10% 0 20% 5%;
+}
+
+.title-e {
+	font-size: 36px;
+}
+
+.about > p {
+	margin: 0 20% 10% 4%;
+	line-height: 2;
+	font-size: 18px;
+}
+
+.p-e {
+	font-size: 21px;
+}
+
+.about-img {
+	margin: -1.2em 0 0 -3em;
+	display: block;
+	text-align: center;
+}
+
+em {
+	font-size: small;
+	margin: 0;
 }
