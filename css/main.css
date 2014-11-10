@@ -1,0 +1,183 @@
+/* =============== MAIN STYLES ============== */
+* {
+	font-family: 'Monsterrat', 'Verdana', san-serif;
+	margin: 0 auto;
+	display: block;
+}
+
+title {
+	display: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+}
+
+/* ======== TOP MENU ======== */
+
+.main-menu {
+	width: 100%;
+	background: #333333;
+	display: block;
+	margin:0 auto;
+	padding:1% 5% 5%;
+    background-image: linear-gradient(to top, black, #333333 10%);
+    margin-left: -5em;
+    padding-left: 5em;
+    text-align: center;
+}
+
+.main-menu a {
+	color: white;
+	text-decoration: none;
+}
+
+.menu-link {
+	float: left;
+	display: inline;
+	margin: 3% 5%;
+}
+
+.home-link {
+	font-size: 18px;
+	display: inline;
+	font-weight: 200;
+}
+
+.menu[data-state="hidden"] {
+	height: 0;
+	max-height: 0;
+	overflow: hidden;
+}
+
+.menu[data-state="active"] {
+	width: 100%;
+	float: left;
+	margin: 0 0 0 -1em;
+	padding: 0 0 0 1em;
+	background: #333333;
+}
+
+span {
+	display: inline;
+	font-size: 21px;
+}
+
+.section-link {
+	background-color: #333333;
+    background-image: linear-gradient(to top, black, #333333 8%);
+    padding: 15px;
+}
+
+.link {
+	padding: 10px 15px;
+	width: 100%;
+}
+
+/* ======== MAIN CONTENT ========== */
+
+.main {
+	display: block;
+	background: white;
+	margin: 0 auto;
+	height: 100%;
+	text-align: left;
+	padding: 5%;
+}
+
+.grid {
+	display: block;
+	margin: 0 auto;
+	padding: 1%;
+	width: 100%;
+	text-align: left;
+}
+
+.tape-link {
+	display: inline-block;
+	text-align: left;
+	margin:0 2%;
+}
+
+.thumbnail {
+	border-radius: 10px;
+	margin: 5%;
+}
+
+/* ====== ABOUT ======== */
+
+.title {
+	margin:10% 0 20% 5%;
+}
+
+.title-e {
+	font-size: 36px;
+}
+
+.about > p {
+	margin: 0 20% 10% 4%;
+	line-height: 2;
+	font-size: 18px;
+}
+
+.p-e {
+	font-size: 21px;
+}
+
+.about-img {
+	margin: -1.2em 0 0 -3em;
+	display: block;
+	text-align: center;
+}
+
+em {
+	font-size: small;
+	margin: 0;
+}
+
+/* ================ PATTERN =============== */
+
+.pattern-img {
+	width:420px;
+	margin: 1em -1em;
+	display: block;
+}
+
+.pattern-title {
+	font-size: 24px;
+	margin: 2em 10px 2em -1em;
+	text-align: center;
+	background: #333333;
+	color: white;
+	padding: 10px 1.5em 10px 1em;
+	width:100%;
+}
+
+.simple-pattern-img {
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	width:350px;
+	margin-top: -5em;
+}
+
+/* ==== FEATURE TAPE === */
+
+.side {
+	width:400px;
+	margin-left: -2em;
+}
+.meta-tags {
+	margin:5em 0 2em;
+	font-size: 18px;
+}
+
+.feature-title {
+	margin:3em 1em 0em 0em;
+	font-size: 36px;
+	font-weight: 300;
+}
+
+.pattern-feature {
+	margin-left: 1em;
+}
