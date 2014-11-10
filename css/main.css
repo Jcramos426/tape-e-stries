@@ -153,6 +153,14 @@ em {
 	width:100%;
 }
 
+.simple-pattern-img {
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	width:350px;
+	margin-top: -5em;
+}
+
 /* ==== FEATURE TAPE === */
 
 .side {
