@@ -16,11 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 .collection-title {
 	color: #fbae06;
 	text-align: center;
-}
-
-hr {
-	color: #fbae06;
-	border-width: 2px;
+	border: #fbae06 2px solid;
 }
 /* ======== TOP MENU ======== */
 
