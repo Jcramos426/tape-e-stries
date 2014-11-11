@@ -16,7 +16,8 @@ h1, h2, h3, h4, h5, h6 {
 .collection-title {
 	color: #fbae06;
 	text-align: center;
-	border: #fbae06 2px solid;
+	border-top: #fbae06 2px solid;
+	border-bottom: #fbae06 2px solid;
 }
 /* ======== TOP MENU ======== */
 
@@ -167,23 +168,56 @@ em {
 	margin-top: -5em;
 }
 
-/* ==== FEATURE TAPE === */
+/* ==== FEATURE TAPE ==== */
 
 .side {
 	width:400px;
 	margin-left: -2em;
 }
+
 .meta-tags {
-	margin:5em 0 2em;
+	margin:0 0 2em;
 	font-size: 18px;
 }
 
+.meta-tags em {
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	display: inline;
+	margin-right: 1em;
+}
+
 .feature-title {
-	margin:3em 1em 0em 0em;
-	font-size: 36px;
+	margin:1em 1em 3em 0em;
+	font-size: 39px;
 	font-weight: 300;
 }
 
 .pattern-feature {
 	margin-left: 1em;
+}
+
+.feature-details {
+	margin-top: 5em;
+}
+
+.subtitle {
+	font-size: 27px;
+	font-style: italic;
+}
+
+/*==== LOCATION====*/
+.location {
+	color: #fbae06;
+	text-align: center;
+	border-top: #fbae06 2px solid;
+	border-bottom: #fbae06 2px solid;
+	margin: 1em 0;
+	padding: 10px;
+}
+
+.location-title {
+	color: #fbae06;
+	text-align: center;
 }
