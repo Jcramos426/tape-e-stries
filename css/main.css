@@ -13,6 +13,11 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 300;
 }
 
+.collection-title {
+	color: #fbae06;
+	text-align: center;
+}
+
 /* ======== TOP MENU ======== */
 
 .main-menu {
