@@ -19,7 +19,8 @@ h1, h2, h3, h4, h5, h6 {
 	border-top: #fbae06 2px solid;
 	border-bottom: #fbae06 2px solid;
 	padding-bottom: 10px;
-	margin:1em 0;
+	margin:12px 0;
+	display: inline;
 }
 /* ======== TOP MENU ======== */
 
