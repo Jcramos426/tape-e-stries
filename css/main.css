@@ -22,10 +22,8 @@ h1, h2, h3, h4, h5, h6 {
 	background: #333333;
 	display: block;
 	margin:0 auto;
-	padding:1% 5% 5%;
+	padding:1px;
     background-image: linear-gradient(to top, black, #333333 10%);
-    margin-left: -5em;
-    padding-left: 5em;
     text-align: center;
 }
 
@@ -37,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 .menu-link {
 	float: left;
 	display: inline;
-	margin: 3% 5%;
+	padding:5%;
 }
 
 .home-link {
@@ -53,10 +51,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .menu[data-state="active"] {
-	width: 100%;
+	max-width: 100%;
 	float: left;
-	margin: 0 0 0 -1em;
-	padding: 0 0 0 1em;
+	margin: 0;
+	padding: 0;
 	background: #333333;
 }
 
@@ -74,27 +72,28 @@ span {
 
 .link {
 	padding: 10px 15px;
-	width: 100%;
+	max-width: 100%;
+	box-sizing: border-box;
 }
 
 /* ======== MAIN CONTENT ========== */
 
 .main {
 	display: block;
-	background: white;
+	background: wheat;
 	margin: 0 auto;
 	padding: 0;
 	text-align: left;
 }
 
 a.tape-link {
-	display: inline-block;
-	text-align: left;
-	margin:0 2%;
+	display: block;
+	margin:0 auto;
+	max-width: 100%;
 }
 
 img.tape {
-	max-width: 400px;
+	margin-top: 10px;
 }
 
 /* ====== ABOUT ======== */
