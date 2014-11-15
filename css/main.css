@@ -80,7 +80,6 @@ span {
 
 .main {
 	display: block;
-	background: wheat;
 	margin: 0 auto;
 	padding: 0;
 	text-align: left;
@@ -95,6 +94,7 @@ a.tape-link {
 img.tape {
 	margin-top: 10px;
 	padding: 0;
+	max-width: 30%;
 }
 
 .tapes {
