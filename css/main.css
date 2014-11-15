@@ -1,7 +1,4 @@
-@media only screen and (max-device-width:480px) {
-	.wrapper {
-		width:400px;
-	}
+
 	/* =============== MAIN STYLES ============== */
 	* {
 		font-family: 'Monsterrat', 'Verdana', san-serif;
@@ -185,4 +182,3 @@
 	.pattern-feature {
 		margin-left: 1em;
 	}
-}
