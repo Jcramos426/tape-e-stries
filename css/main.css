@@ -84,7 +84,7 @@ span {
 	display: block;
 	background: white;
 	margin: 0 auto;
-	height: 100%;
+	padding: 0;
 	text-align: left;
 }
 
