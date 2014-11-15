@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo {
-	max-width: 90%;
+	max-width: 30%;
 }
 /* ======== TOP MENU ======== */
 
@@ -89,11 +89,17 @@ span {
 a.tape-link {
 	display: block;
 	margin:0 auto;
-	max-width: 100%;
+	max-width: 30%;
 }
 
 img.tape {
 	margin-top: 10px;
+	padding: 0;
+}
+
+.tapes {
+	margin:0;
+	padding: 0;
 }
 
 /* ====== ABOUT ======== */
