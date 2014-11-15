@@ -13,9 +13,6 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 300;
 }
 
-.logo {
-	max-width: 30%;
-}
 /* ======== TOP MENU ======== */
 
 .main-menu {
@@ -78,6 +75,11 @@ span {
 
 /* ======== MAIN CONTENT ========== */
 
+
+.logo {
+	max-width: 50%;
+}
+
 .main {
 	display: block;
 	margin: 0 auto;
@@ -88,13 +90,13 @@ span {
 a.tape-link {
 	display: block;
 	margin:0 auto;
-	max-width: 30%;
+	width: 30%;
 }
 
 img.tape {
 	margin-top: 10px;
 	padding: 0;
-	max-width: 30%;
+	width: 30%;
 }
 
 .tapes {
