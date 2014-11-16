@@ -1,3 +1,8 @@
+@font-face {
+	font-family: Avenir;
+	src:url(fonts/Avenir-Book.ttf);
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -64,13 +69,13 @@ span {
 	background-color: #333333;
     background-image: linear-gradient(to top, black, #333333 8%);
     padding: 15px;
-    text-decoration: none;
 }
 
 .link {
 	padding: 10px 15px;
 	max-width: 100%;
 	box-sizing: border-box;
+	text-decoration: none;
 }
 
 /* ======== MAIN CONTENT ========== */
@@ -102,6 +107,7 @@ img.tape {
 .tapes {
 	margin:0;
 	padding: 0;
+	width: 400px;
 }
 
 /* ====== ABOUT ======== */
