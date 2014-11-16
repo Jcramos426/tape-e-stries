@@ -20,11 +20,30 @@ h4,
 h5, 
 h6 {
 	font-weight: 300;
+	font-family: Avenir;
 }
 
 h1.home-container {
 	font-size: 21px;
-	margin:7% 4% 2%;
+	margin:0;
+	padding: 2%;
+}
+
+span {
+	display: inline;
+	font-size: 26px;
+	margin: 0 1%;
+}
+
+.home-link {
+	font-size: 21px;
+	display: inline;
+	padding: 5% 60% 5% 3%;
+	margin: 0;
+}
+
+a {
+	font-family: Avenir;
 }
 
 /* ======== TOP MENU ======== */
@@ -32,9 +51,8 @@ h1.home-container {
 .main-menu {
 	background: #333333;
 	display: block;
-	margin:-1em 0;
-    background-image: linear-gradient(to top, black, #333333 10%);
-    padding: 5px;
+	margin:0;
+    padding: 1%;
 }
 
 .main-menu a {
@@ -43,15 +61,9 @@ h1.home-container {
 }
 
 .menu-link {
-	padding:6% 3% 0;
+	padding:3%;
 	float: left;
-}
-
-.home-link {
-	font-size: 21px;
-	display: inline;
-	font-weight: bold;
-	margin: 0 5px 0;
+	cursor: pointer;
 }
 
 .menu[data-state="hidden"] {
@@ -69,11 +81,6 @@ h1.home-container {
 	background: #333333;
 	position: absolute;
 	top: 4%;
-}
-
-span {
-	display: inline;
-	font-size: 21px;
 }
 
 .section-link {
