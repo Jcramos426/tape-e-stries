@@ -22,7 +22,6 @@ h6 {
 h1.home-container {
 	font-size: 21px;
 	margin:7% 4% 2%;
-	font-weight: 100;
 }
 
 /* ======== TOP MENU ======== */
@@ -42,6 +41,7 @@ h1.home-container {
 
 .menu-link {
 	padding:6% 3% 0;
+	float: left;
 }
 
 .home-link {
