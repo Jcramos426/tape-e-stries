@@ -130,7 +130,7 @@ img.tape {
 /* ====== ABOUT ======== */
 
 .title {
-	margin:10% 0 20% 5%;
+	margin:10% 0 15% 4%;
 }
 
 .title-e {
@@ -148,9 +148,8 @@ img.tape {
 }
 
 .about-img {
-	margin: -1.2em 0 0 -3em;
+	margin: 0;
 	display: block;
-	text-align: center;
 }
 
 em {
