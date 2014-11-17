@@ -82,6 +82,7 @@ img.tape {
 .title {
 	margin:10% 0 15% 4%;
 	text-align: left;
+	width: 100%;
 }
 
 .title-e {
@@ -93,6 +94,7 @@ img.tape {
 	line-height: 2;
 	font-size: 18px;
 	text-align: left;
+	width: 100%;
 }
 
 .p-e {
@@ -102,6 +104,7 @@ img.tape {
 .about-img {
 	margin: 0;
 	display: block;
+	width: 100%;
 }
 
 em {
@@ -118,7 +121,7 @@ em {
 }
 
 .side {
-	width:400px;
+	width:100%;
 	text-align:center;
 }
 
