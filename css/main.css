@@ -60,7 +60,7 @@ a.tape-link {
 	display: block;
 	margin:0 auto;
 	max-width: 100%;
-	text-align-center;
+	text-align:center;
 }
 
 img.tape {
@@ -119,6 +119,7 @@ em {
 
 .side {
 	width:400px;
+	text-align:center;
 }
 
 .meta-tags em {
