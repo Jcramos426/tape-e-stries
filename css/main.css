@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	width: 400px;
+	width: 100%;
 	text-align: left;
 }
 
@@ -133,6 +133,7 @@ em {
 .meta-tags,
 .feature-details {
 	margin-left: 4%;
+	margin-right:7%;
 	box-sizing: border-box;
 	text-align: left;
 }
