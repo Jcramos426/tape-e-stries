@@ -133,6 +133,7 @@
 		margin: -1.2em 0 0 -3em;
 		display: block;
 		text-align: center;
+		width: 100%;
 	}
 	
 	em {
@@ -169,7 +170,7 @@
 	/* ==== FEATURE TAPE === */
 	
 	.side {
-		width:400px;
+		width:100%;
 		margin-left: -2em;
 	}
 	.meta-tags {
