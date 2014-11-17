@@ -60,18 +60,20 @@ a.tape-link {
 	display: block;
 	margin:0 auto;
 	max-width: 100%;
+	text-align-center;
 }
 
 img.tape {
 	margin-top: 7%;
 	padding: 0;
 	width: 100%;
+	text-align:center;
 }
 
 .tapes {
 	margin:0;
 	padding: 0;
-	width: 400px;
+	width: 100%;
 	text-align: center;
 }
 
