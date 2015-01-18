@@ -130,6 +130,12 @@ em {
 
 .meta-tags em {
 	display: block;
+	font-style: italic;
+	font-size: 12px;
+}
+
+.meta-tags {
+	font-size: 18px;
 }
 
 .feature-title {
